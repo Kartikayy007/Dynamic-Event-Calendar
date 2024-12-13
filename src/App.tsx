@@ -1,12 +1,10 @@
 import './App.css'
-
+import { Sidebar } from './components/RetractingSidebar'
 function App() {
 
   return (
     <>
-      <h1 className='text-red-500'>
-        hiie
-      </h1>
+      <Sidebar />
     </>
   )
 }
